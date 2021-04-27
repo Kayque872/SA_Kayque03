@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Ubuntu');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+  background: #2196F3;
+  margin: 0 10px;
+}
+
+.payment{
+  background: #f8f8f8;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 70px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.payment h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #0d3c61;
+}
+
+.form .label{
+  display: block;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.input{
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 16px;
+  color: #555555;
+}
+
+.card-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 48%;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+.icon-relative{
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far{
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.btn{
+  margin-top: 40px;
+  background: #2196F3;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.payment-logo{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  text-align: center;
+  line-height: 85px;
+}
+
+.payment-logo:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 90px;
+  height: 90px;
+  background: #2196F3;
+  border-radius: 50%;
+}
+
+.payment-logo p{
+  position: relative;
+  color: #f8f8f8;
+  font-family: 'Baloo Bhaijaan', cursive;
+  font-size: 58px;
+}
+
+
+@media screen and (max-width: 420px){
+  .card-grp{
+    flex-direction: column;
+  }
+  .card-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+}
+
+
+.d-block{
+    width: 300px;
+}
+
+.c1{
+    width: 100%;
+    height: 300px;
+}
+
+.c2{
+    width: 100%;
+    height: 300px;
+}
+
+.c3{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.img3{
+    width: 100%;
+    height: 60px;
+}
+
+#border{
+    background-color:#FFD700;
+    width: 100%;
+    height: 20px;
+}
+
+
+#ulk{
+    list-style: none;
+    display: flex;
+    margin-left: 700px;
+    padding-top: 8px;
+   
+}
+
+
+#botao1{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+
+
+#botao2{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+#botao3{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+
+.h1{
+    color: darkgrey;
+}
+
+.img4{
+    width: 90%;
+    height: 200px;
+    border-radius: 5%;
+    padding-left: 3%;
+
+}
+
+#border2{
+    background-color:#9225a7;
+    width: 60%;
+    height: 100px;
+    padding-left: 15%;
+    padding-top: 1%;
+    margin-left: 15%;
+    border-radius: 2%;
+    
+}
+
+h3{
+    color: white;
+}
+
+
+#div2 { height: 200px;
+    background-color: black; 
+    font-size: 25px;
+    padding-left: 50px;
+    color: white;
+    
+   
+}
+
+
+
+
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FFD700;
+    text-align: center;
+  }
+  .box h1{
+    color: #4B0082;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4B0082;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #4B0082;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #4B0082;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #4B0082;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #4B0082;
+  }
+
+
+  #border4{
+    background-color:#4B0082;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.cad5{
+color: #4B0082;
+}
+
+.but2{
+    color: blueviolet;
+}
+
+.paga3{
+width: 30%;
+height: 100px;
+background-color: #836FFF;
+border-radius: 3%;
+
+}
+
+
+.row{
+  padding-left: 3%;
+  width: 30%;
+}
+
+.row2{
+  padding-left: 3%;
+  width: 10%;
+}
+
+.bordapag1{
+ background-color: #4B0082;
+ color: white;
+ height: 30px;
+ 
+}

@@ -1,0 +1,198 @@
+
+
+
+.d-block{
+    width: 300px;
+}
+
+.c1{
+    width: 100%;
+    height: 300px;
+}
+
+.c2{
+    width: 100%;
+    height: 300px;
+}
+
+.c3{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+.img3{
+    width: 100%;
+    height: 60px;
+}
+
+#border{
+    background-color:#FFD700;
+    width: 100%;
+    height: 20px;
+}
+
+
+#ulk{
+    list-style: none;
+    display: flex;
+    margin-left: 700px;
+    padding-top: 8px;
+   
+}
+
+
+#botao1{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+
+
+#botao2{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+#botao3{
+    color:white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    padding-right: 40px;
+
+}
+
+.h1{
+    color: darkgrey;
+}
+
+.img4{
+    width: 90%;
+    height: 200px;
+    border-radius: 5%;
+    padding-left: 3%;
+
+}
+
+#border2{
+    background-color:#9225a7;
+    width: 60%;
+    height: 100px;
+    padding-left: 15%;
+    padding-top: 1%;
+    margin-left: 15%;
+    border-radius: 2%;
+    
+}
+
+h3{
+    color: white;
+}
+
+
+#div2 { height: 200px;
+    background-color: black; 
+    font-size: 25px;
+    padding-left: 50px;
+    color: white;
+    
+   
+}
+
+
+
+
+.box{
+    width: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #FFD700;
+    text-align: center;
+  }
+  .box h1{
+    color: #4B0082;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #4B0082;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #4B0082;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #4B0082;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid  #4B0082;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #4B0082;
+  }
+
+
+  #border4{
+    background-color:#4B0082;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.cad5{
+color: #4B0082;
+}
+
+.but2{
+    color: blueviolet;
+}
+
+.borda7{
+    background-color: #4B0082;
+ color: white;
+ height: 30px;
+ padding-left: 45%;
+}
+
+.fale2{
+    background-color: #4B0082;
+    color: white;
+    height: 200px;
+    width: 100%;
+   
+   
+  
+}
+  
